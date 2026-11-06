@@ -61,9 +61,9 @@ Das Tool wurde entwickelt, um die Lücke zwischen einfachen Log-Parsern und komp
 
 ### Als ausführbare Datei (.exe)
 
-Die einfachste Methode ist die Verwendung der vorkompilierten `ZenPCanalys.exe`:
+Die einfachste Methode ist die Verwendung der vorkompilierten `MaoMaoScanner.exe`:
 
-1. Lade die `ZenPCanalys.exe` aus dem `dist`-Ordner herunter.
+1. Lade die `MaoMaoScanner.exe` aus dem `dist`-Ordner herunter.
 2. Führe die Datei aus. Es ist keine Installation erforderlich.
 3. *Hinweis:* Für die Live-Überwachung des `Security`-Kanals werden Administrator-Rechte benötigt.
 
