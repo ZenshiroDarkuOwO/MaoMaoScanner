@@ -18,7 +18,7 @@
 
 ## 📖 Über das Projekt
 
-**ZenPCanalys** ist ein leichtgewichtiges, aber leistungsfähiges Security-Tool, das Windows-Ereignisprotokolle (`.evtx`) analysiert. Es nutzt das weltweit standardisierte **Sigma-Regelformat**, um Bedrohungen zu erkennen, und bietet eine moderne, dunkle Benutzeroberfläche für die tägliche Arbeit im Security Operations Center (SOC) oder für DFIR-Analysten.
+**MaoMaoScanner** ist ein leichtgewichtiges, aber leistungsfähiges Security-Tool, das Windows-Ereignisprotokolle (`.evtx`) analysiert. Es nutzt das weltweit standardisierte **Sigma-Regelformat**, um Bedrohungen zu erkennen, und bietet eine moderne, dunkle Benutzeroberfläche für die tägliche Arbeit im Security Operations Center (SOC) oder für DFIR-Analysten.
 
 Das Tool wurde entwickelt, um die Lücke zwischen einfachen Log-Parsern und komplexen, teuren SIEM-Lösungen zu schließen. Es ist schnell, lokal ausführbar und benötigt keine Cloud-Anbindung.
 
