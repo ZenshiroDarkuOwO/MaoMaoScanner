@@ -1,0 +1,32 @@
+title: LSASS Memory Access by Suspicious Process
+id: e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b
+status: stable
+description: Detects suspicious access to LSASS process memory, often used for credential dumping.
+author: ZenshiroDarkuOwO
+date: 2026/11/04
+references:
+    - https://attack.mitre.org/techniques/T1003/001/
+tags:
+    - attack.credential_access
+    - attack.t1003.001
+logsource:
+    product: windows
+    category: process_access
+detection:
+    selection:
+        TargetImage|endswith: '\lsass.exe'
+        GrantedAccess|contains:
+            - '0x1010'
+            - '0x1410'
+            - '0x1438'
+            - '0x143a'
+            - '0x1fffff'
+    filter_legit:
+        SourceImage|endswith:
+            - '\wmiprvse.exe'
+            - '\taskmgr.exe'
+            - '\svchost.exe'
+    condition: selection and not filter_legit
+falsepositives:
+    - Legitimate antivirus or EDR products
+level: critical

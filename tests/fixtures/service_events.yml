@@ -1,0 +1,8 @@
+- EventID: 7045
+  ImagePath: 'C:\Windows\System32\cmd.exe /c whoami'
+- EventID: 7045
+  ImagePath: 'C:\Program Files\Legit\service.exe'
+- EventID: 7045
+  ImagePath: 'C:\Users\Public\malware.exe'
+- EventID: 7044
+  ImagePath: 'C:\Windows\System32\cmd.exe /c dir'

@@ -1,0 +1,26 @@
+title: Suspicious Process Creation from Temp or Public
+id: 5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b
+status: stable
+description: Detects process execution from Temp or Public directories, a common malware behavior.
+author: ZenshiroDarkuOwO
+date: 2026/11/05
+tags:
+    - attack.execution
+    - attack.t1059
+    - attack.t1204
+logsource:
+    product: windows
+    category: process_creation
+detection:
+    selection:
+        Image|contains:
+            - '\Temp\'
+            - '\Users\Public\'
+    filter_legit:
+        Image|endswith:
+            - '\setup.exe'
+            - '\installer.exe'
+    condition: selection and not filter_legit
+falsepositives:
+    - Legitimate installers and updaters
+level: medium

@@ -1,0 +1,36 @@
+title: Remote Logon via RDP or SMB
+id: 4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a
+status: stable
+description: Detects remote logon (Event ID 4624) with LogonType 10 (RDP) or 3 (Network), excluding local and system noise.
+author: ZenshiroDarkuOwO
+date: 2026/11/05
+tags:
+    - attack.lateral_movement
+    - attack.t1021.001
+    - attack.t1021.002
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 4624
+        LogonType:
+            - 10
+            - 3
+    filter_local:
+        IpAddress:
+            - '127.0.0.1'
+            - '::1'
+            - '-'
+    filter_system_accounts:
+        TargetUserName|endswith: '$'
+    filter_system_users:
+        TargetUserName:
+            - 'SYSTEM'
+            - 'LOCAL SERVICE'
+            - 'NETWORK SERVICE'
+            - 'ANONYMOUS LOGON'
+    condition: selection and not (filter_local or filter_system_accounts or filter_system_users)
+falsepositives:
+    - Legitimate remote administration from known admin subnets
+level: low

@@ -1,0 +1,26 @@
+title: Potential Process Injection via CreateRemoteThread
+id: f3a4b5c6-d7e8-9f0a-1b2c-3d4e5f6a7b8c
+status: experimental
+description: Detects the creation of a remote thread (Sysmon Event ID 8), a common technique for process injection (T1055).
+author: ZenshiroDarkuOwO
+date: 2026/11/05
+references:
+    - https://attack.mitre.org/techniques/T1055/
+tags:
+    - attack.defense_evasion
+    - attack.privilege_escalation
+    - attack.t1055
+logsource:
+    product: windows
+    category: create_remote_thread
+detection:
+    selection:
+        EventID: 8
+    filter_legit:
+        SourceImage|endswith:
+            - '\svchost.exe'
+            - '\lsass.exe'
+    condition: selection and not filter_legit
+falsepositives:
+    - Legitimate software that uses remote threads (e.g., some debuggers, antivirus)
+level: medium

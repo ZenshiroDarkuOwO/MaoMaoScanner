@@ -1,0 +1,47 @@
+title: Suspicious PowerShell Script Block
+id: 9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d
+status: experimental
+description: Detects suspicious PowerShell script content from Script Block Logging (EventID 4104), including credential theft, download cradle, and obfuscation patterns.
+author: ZenshiroDarkuOwO
+date: 2026/11/05
+references:
+    - https://attack.mitre.org/techniques/T1059/001/
+    - https://attack.mitre.org/techniques/T1003/001/
+tags:
+    - attack.execution
+    - attack.t1059.001
+    - attack.credential_access
+    - attack.t1003.001
+logsource:
+    product: windows
+    service: powershell
+    definition: 'Requires Script Block Logging (EventID 4104) to be enabled'
+detection:
+    selection_event:
+        EventID: 4104
+    suspicious_credential:
+        ScriptBlockText|contains:
+            - 'Get-Credential'
+            - 'ConvertTo-SecureString'
+            - 'Mimikatz'
+            - 'sekurlsa'
+            - 'logonpasswords'
+            - 'Invoke-Mimikatz'
+    suspicious_download:
+        ScriptBlockText|contains:
+            - 'DownloadString'
+            - 'Invoke-WebRequest'
+            - 'Net.WebClient'
+            - 'IEX'
+            - 'Invoke-Expression'
+            - 'FromBase64String'
+    suspicious_obfuscation:
+        ScriptBlockText|contains:
+            - '-EncodedCommand'
+            - '-enc '
+            - 'FromBase64String'
+    condition: selection_event and (suspicious_credential or suspicious_download or suspicious_obfuscation)
+falsepositives:
+    - Legitimate administrative scripts
+    - Some software installers
+level: high

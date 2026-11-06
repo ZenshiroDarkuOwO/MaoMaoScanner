@@ -1,0 +1,37 @@
+title: Suspicious Service Creation
+id: a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d
+status: stable
+description: Detects service creation with suspicious binary paths (cmd, powershell, temp directory).
+author: ZenshiroDarkuOwO
+date: 2026/11/04
+references:
+    - https://attack.mitre.org/techniques/T1543/003/
+tags:
+    - attack.persistence
+    - attack.privilege_escalation
+    - attack.t1543.003
+logsource:
+    product: windows
+    service: system
+detection:
+    selection:
+        EventID: 7045
+    suspicious_shell:
+        ImagePath|contains:
+            - 'cmd.exe'
+            - 'powershell'
+            - 'pwsh.exe'
+            - 'wscript.exe'
+            - 'cscript.exe'
+            - 'mshta.exe'
+    suspicious_location:
+        ImagePath|contains:
+            - '\Temp\'
+            - '\Users\Public\'
+            - '\Windows\Temp\'
+    filter_legit_drivers:
+        ServiceType|contains: 'kernel mode driver'
+    condition: selection and (suspicious_shell or suspicious_location) and not filter_legit_drivers
+falsepositives:
+    - Legitimate software installers using temp directories
+level: high

@@ -1,0 +1,63 @@
+{
+  "scan_time": "2026-11-05T15:29:11.629759+00:00",
+  "file": "C:\\Users\\Mazinet Rayaneh\\Desktop\\System_with_svc2.evtx",
+  "limit": null,
+  "total_events": 36382,
+  "total_rules": 7,
+  "rules_with_matches": [
+    "Suspicious Service Creation"
+  ],
+  "total_matches": 2,
+  "matches": [
+    {
+      "rule_title": "Suspicious Service Creation",
+      "rule_id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d",
+      "level": "high",
+      "attack_techniques": [
+        "T1543.003"
+      ],
+      "attack_tactics": [
+        "persistence",
+        "privilege_escalation"
+      ],
+      "event_index": 36380,
+      "event": {
+        "Channel": "System",
+        "Computer": "DESKTOP-Q6P0FK1",
+        "EventID": 7045,
+        "ProviderName": "Service Control Manager",
+        "TimeCreated": "2026-11-05T15:17:00.695645Z",
+        "ServiceName": "Zen Test",
+        "ImagePath": "C:\\Windows\\System32\\cmd.exe /c whoami",
+        "ServiceType": "user mode service",
+        "StartType": "auto start",
+        "AccountName": "LocalSystem"
+      }
+    },
+    {
+      "rule_title": "Suspicious Service Creation",
+      "rule_id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d",
+      "level": "high",
+      "attack_techniques": [
+        "T1543.003"
+      ],
+      "attack_tactics": [
+        "persistence",
+        "privilege_escalation"
+      ],
+      "event_index": 36381,
+      "event": {
+        "Channel": "System",
+        "Computer": "DESKTOP-Q6P0FK1",
+        "EventID": 7045,
+        "ProviderName": "Service Control Manager",
+        "TimeCreated": "2026-11-05T15:23:34.078606Z",
+        "ServiceName": "Zen Test 2",
+        "ImagePath": "C:\\Windows\\System32\\cmd.exe /c whoami",
+        "ServiceType": "user mode service",
+        "StartType": "auto start",
+        "AccountName": "LocalSystem"
+      }
+    }
+  ]
+}

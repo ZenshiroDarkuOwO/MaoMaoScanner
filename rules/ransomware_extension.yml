@@ -1,0 +1,32 @@
+title: Ransomware Double Extension File Rename
+id: e3f4a5b6-c7d8-9e0f-1a2b-3c4d5e6f7a8b
+status: experimental
+description: Detects file renames where a known document extension is followed by a suspicious second extension, indicating possible ransomware encryption.
+author: ZenshiroDarkuOwO
+date: 2026/11/05
+references:
+    - https://attack.mitre.org/techniques/T1486/
+tags:
+    - attack.impact
+    - attack.t1486
+logsource:
+    product: windows
+    category: file_rename
+detection:
+    selection:
+        EventID: 11
+        TargetFilename|contains:
+            - '.docx.'
+            - '.pdf.'
+            - '.xlsx.'
+            - '.pptx.'
+            - '.jpg.'
+            - '.txt.'
+    filter_legit:
+        TargetFilename|endswith:
+            - '.docx.tmp'
+            - '.pdf.tmp'
+    condition: selection and not filter_legit
+falsepositives:
+    - Legitimate software creating temporary files with double extensions
+level: medium

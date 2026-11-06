@@ -1,0 +1,77 @@
+title: UAC Bypass via Registry Hijack or Auto-Elevate Binary
+id: 3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b
+status: experimental
+description: Detects UAC bypass attempts via registry hijacking, auto-elevate binary abuse, or suspicious child process from auto-elevate binaries including UACME techniques.
+author: ZenshiroDarkuOwO
+date: 2026/11/05
+references:
+    - https://attack.mitre.org/techniques/T1548/002/
+    - https://github.com/hfiref0x/UACME
+tags:
+    - attack.privilege_escalation
+    - attack.defense_evasion
+    - attack.t1548.002
+logsource:
+    product: windows
+detection:
+    selection_registry:
+        EventID:
+            - 12
+            - 13
+        TargetObject|contains:
+            - '\ms-settings\shell\open\command'
+            - '\mscfile\shell\open\command'
+            - '\exefile\shell\runas\command'
+            - '\Folder\shell\open\command'
+    selection_process_shell:
+        EventID: 1
+        ParentImage|endswith:
+            - '\fodhelper.exe'
+            - '\computerdefaults.exe'
+            - '\eventvwr.exe'
+            - '\sdclt.exe'
+            - '\slui.exe'
+            - '\ieinstal.exe'
+            - '\dllhost.exe'
+            - '\wusa.exe'
+            - '\pkgmgr.exe'
+            - '\cmstp.exe'
+        Image|endswith:
+            - '\cmd.exe'
+            - '\powershell.exe'
+            - '\pwsh.exe'
+            - '\wscript.exe'
+            - '\cscript.exe'
+            - '\mshta.exe'
+            - '\rundll32.exe'
+            - '\regsvr32.exe'
+    selection_consent_temp:
+        EventID: 1
+        Image|contains: '\Temp\'
+        Image|endswith: '\consent.exe'
+    selection_temp_from_elevated:
+        EventID: 1
+        ParentImage|endswith:
+            - '\mmc.exe'
+            - '\fodhelper.exe'
+            - '\computerdefaults.exe'
+            - '\eventvwr.exe'
+            - '\sdclt.exe'
+            - '\slui.exe'
+            - '\ieinstal.exe'
+            - '\dllhost.exe'
+            - '\wusa.exe'
+            - '\pkgmgr.exe'
+            - '\cmstp.exe'
+            - '\svchost.exe'
+        Image|contains:
+            - '\Temp\'
+            - '\AppData\Local\Temp\'
+    filter_legit:
+        ParentImage|endswith: '\eventvwr.exe'
+        Image|endswith: '\mmc.exe'
+    condition: (selection_registry or selection_process_shell or selection_consent_temp or selection_temp_from_elevated) and not filter_legit
+falsepositives:
+    - Legitimate administrative tools
+    - Software installers extracting to Temp
+level: high

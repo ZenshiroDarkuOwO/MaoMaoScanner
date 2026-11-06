@@ -1,0 +1,36 @@
+title: Webshell Command Execution
+id: f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c
+status: stable
+description: Detects common commands executed through a webshell on IIS or other web servers.
+author: ZenshiroDarkuOwO
+date: 2026/11/04
+references:
+    - https://attack.mitre.org/techniques/T1505/003/
+tags:
+    - attack.persistence
+    - attack.t1505.003
+logsource:
+    product: windows
+    category: process_creation
+detection:
+    selection_parent:
+        ParentImage|endswith:
+            - '\w3wp.exe'
+            - '\httpd.exe'
+            - '\nginx.exe'
+            - '\php-cgi.exe'
+    selection_cmd:
+        Image|endswith:
+            - '\cmd.exe'
+            - '\powershell.exe'
+            - '\whoami.exe'
+            - '\net.exe'
+            - '\net1.exe'
+            - '\ipconfig.exe'
+            - '\systeminfo.exe'
+            - '\tasklist.exe'
+            - '\nslookup.exe'
+    condition: selection_parent and selection_cmd
+falsepositives:
+    - Legitimate administrative web applications
+level: high

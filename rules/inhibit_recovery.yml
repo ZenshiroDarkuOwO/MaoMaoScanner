@@ -1,0 +1,33 @@
+title: Inhibit System Recovery via Shadow Copy Deletion
+id: d2e3f4a5-b6c7-8d9e-0f1a-2b3c4d5e6f7a
+status: stable
+description: Detects deletion of Volume Shadow Copies and backup catalogs via vssadmin, wbadmin, bcdedit, or diskshadow, a common ransomware precursor.
+author: ZenshiroDarkuOwO
+date: 2026/11/05
+references:
+    - https://attack.mitre.org/techniques/T1490/
+tags:
+    - attack.impact
+    - attack.t1490
+logsource:
+    product: windows
+    category: process_creation
+detection:
+    selection_vss:
+        Image|endswith: '\vssadmin.exe'
+        CommandLine|contains: 'delete shadows'
+    selection_wbadmin:
+        Image|endswith: '\wbadmin.exe'
+        CommandLine|contains: 'delete catalog'
+    selection_bcdedit:
+        Image|endswith: '\bcdedit.exe'
+        CommandLine|contains:
+            - 'recoveryenabled no'
+            - 'bootstatuspolicy ignoreallfailures'
+    selection_diskshadow:
+        Image|endswith: '\diskshadow.exe'
+        CommandLine|contains: 'delete'
+    condition: selection_vss or selection_wbadmin or selection_bcdedit or selection_diskshadow
+falsepositives:
+    - Legitimate backup maintenance (should be baselined)
+level: high

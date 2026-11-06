@@ -1,0 +1,26 @@
+title: Phishing via ISO or IMG Attachment
+id: c1d2e3f4-a5b6-7c8d-9e0f-1a2b3c4d5e6f
+status: experimental
+description: Detects the creation of recent file entries pointing to ISO, IMG, VHD, or VHDX files, a common phishing attachment technique.
+author: ZenshiroDarkuOwO
+date: 2026/11/05
+references:
+    - https://attack.mitre.org/techniques/T1566/001/
+tags:
+    - attack.initial_access
+    - attack.t1566.001
+logsource:
+    product: windows
+    category: file_event
+detection:
+    selection:
+        TargetFilename|endswith:
+            - '.iso.lnk'
+            - '.img.lnk'
+            - '.vhd.lnk'
+            - '.vhdx.lnk'
+        TargetFilename|contains: '\Microsoft\Windows\Recent\'
+    condition: selection
+falsepositives:
+    - Legitimate users mounting ISO/IMG files for software installation
+level: medium

@@ -1,0 +1,6 @@
+- Image: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+  CommandLine: 'powershell.exe -EncodedCommand SQBFAFgA'
+- Image: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+  CommandLine: 'powershell.exe -Command Get-Process'
+- Image: 'C:\Tools\evil.exe'
+  CommandLine: 'evil.exe -enc AAAA'

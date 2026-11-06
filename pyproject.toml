@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zenpcanalys"
+version = "0.1.0"
+description = "ZenPCanalys — Sigma-based detection engineering toolkit"
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+zen = "zen.cli:main"
+zen-gui = "zen.gui:main"

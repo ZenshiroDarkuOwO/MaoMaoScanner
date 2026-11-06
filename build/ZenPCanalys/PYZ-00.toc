@@ -1,0 +1,1633 @@
+('C:\\Users\\Mazinet '
+ 'Rayaneh\\Desktop\\ZenPCanalys\\build\\ZenPCanalys\\PYZ-00.pyz',
+ [('PIL',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL.AvifImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\AvifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ExifTags',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ExifTags.py',
+   'PYMODULE'),
+  ('PIL.FitsImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\FitsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.ImageCms',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImageCms.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.ImageWin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImageWin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.QoiImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\QoiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL._deprecate',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\_deprecate.py',
+   'PYMODULE'),
+  ('PIL._typing',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\_typing.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('_colorize',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_colorize.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('_opcode_metadata',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_opcode_metadata.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_pydatetime',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pydatetime.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ast.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\base64.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('colorsys',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\colorsys.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\copy.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('customtkinter',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\__init__.py',
+   'PYMODULE'),
+  ('customtkinter.windows',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\__init__.py',
+   'PYMODULE'),
+  ('customtkinter.windows.ctk_input_dialog',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\ctk_input_dialog.py',
+   'PYMODULE'),
+  ('customtkinter.windows.ctk_tk',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\ctk_tk.py',
+   'PYMODULE'),
+  ('customtkinter.windows.ctk_toplevel',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\ctk_toplevel.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\__init__.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.appearance_mode',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\appearance_mode\\__init__.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.appearance_mode.appearance_mode_base_class',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\appearance_mode\\appearance_mode_base_class.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.appearance_mode.appearance_mode_tracker',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\appearance_mode\\appearance_mode_tracker.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.core_rendering',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\core_rendering\\__init__.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.core_rendering.ctk_canvas',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\core_rendering\\ctk_canvas.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.core_rendering.draw_engine',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\core_rendering\\draw_engine.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.core_widget_classes',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\core_widget_classes\\__init__.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.core_widget_classes.ctk_base_class',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\core_widget_classes\\ctk_base_class.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.core_widget_classes.dropdown_menu',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\core_widget_classes\\dropdown_menu.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_button',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_button.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_checkbox',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_checkbox.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_combobox',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_combobox.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_entry',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_entry.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_frame',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_frame.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_label',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_label.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_optionmenu',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_optionmenu.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_progressbar',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_progressbar.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_radiobutton',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_radiobutton.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_scrollable_frame',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_scrollable_frame.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_scrollbar',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_scrollbar.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_segmented_button',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_segmented_button.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_slider',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_slider.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_switch',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_switch.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_tabview',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_tabview.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.ctk_textbox',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\ctk_textbox.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.font',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\font\\__init__.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.font.ctk_font',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\font\\ctk_font.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.font.font_manager',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\font\\font_manager.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.image',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\image\\__init__.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.image.ctk_image',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\image\\ctk_image.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.scaling',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\scaling\\__init__.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.scaling.scaling_base_class',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\scaling\\scaling_base_class.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.scaling.scaling_tracker',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\scaling\\scaling_tracker.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.theme',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\theme\\__init__.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.theme.theme_manager',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\theme\\theme_manager.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.utility',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\utility\\__init__.py',
+   'PYMODULE'),
+  ('customtkinter.windows.widgets.utility.utility_functions',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\customtkinter\\windows\\widgets\\utility\\utility_functions.py',
+   'PYMODULE'),
+  ('darkdetect',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\darkdetect\\__init__.py',
+   'PYMODULE'),
+  ('darkdetect._dummy',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\darkdetect\\_dummy.py',
+   'PYMODULE'),
+  ('darkdetect._linux_detect',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\darkdetect\\_linux_detect.py',
+   'PYMODULE'),
+  ('darkdetect._mac_detect',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\darkdetect\\_mac_detect.py',
+   'PYMODULE'),
+  ('darkdetect._windows_detect',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\darkdetect\\_windows_detect.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\dis.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\glob.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\html\\entities.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._functional',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\_functional.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('jinja2',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\__init__.py',
+   'PYMODULE'),
+  ('jinja2._identifier',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\_identifier.py',
+   'PYMODULE'),
+  ('jinja2.async_utils',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\async_utils.py',
+   'PYMODULE'),
+  ('jinja2.bccache',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\bccache.py',
+   'PYMODULE'),
+  ('jinja2.compiler',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\compiler.py',
+   'PYMODULE'),
+  ('jinja2.constants',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\constants.py',
+   'PYMODULE'),
+  ('jinja2.debug',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\debug.py',
+   'PYMODULE'),
+  ('jinja2.defaults',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\defaults.py',
+   'PYMODULE'),
+  ('jinja2.environment',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\environment.py',
+   'PYMODULE'),
+  ('jinja2.exceptions',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\exceptions.py',
+   'PYMODULE'),
+  ('jinja2.ext',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\ext.py',
+   'PYMODULE'),
+  ('jinja2.filters',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\filters.py',
+   'PYMODULE'),
+  ('jinja2.idtracking',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\idtracking.py',
+   'PYMODULE'),
+  ('jinja2.lexer',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\lexer.py',
+   'PYMODULE'),
+  ('jinja2.loaders',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\loaders.py',
+   'PYMODULE'),
+  ('jinja2.nodes',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\nodes.py',
+   'PYMODULE'),
+  ('jinja2.optimizer',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\optimizer.py',
+   'PYMODULE'),
+  ('jinja2.parser',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\parser.py',
+   'PYMODULE'),
+  ('jinja2.runtime',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\runtime.py',
+   'PYMODULE'),
+  ('jinja2.sandbox',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\sandbox.py',
+   'PYMODULE'),
+  ('jinja2.tests',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\tests.py',
+   'PYMODULE'),
+  ('jinja2.utils',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\utils.py',
+   'PYMODULE'),
+  ('jinja2.visitor',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\jinja2\\visitor.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('markupsafe',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\markupsafe\\__init__.py',
+   'PYMODULE'),
+  ('markupsafe._native',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\markupsafe\\_native.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('packaging',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\__init__.py',
+   'PYMODULE'),
+  ('pathlib._abc',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\_abc.py',
+   'PYMODULE'),
+  ('pathlib._local',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\_local.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\platform.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\queue.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\random.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\signal.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\socket.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\string.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\threading.py',
+   'PYMODULE'),
+  ('tkinter',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('tkinter.dialog',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\dialog.py',
+   'PYMODULE'),
+  ('tkinter.filedialog',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\filedialog.py',
+   'PYMODULE'),
+  ('tkinter.font',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\font.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\messagebox.py',
+   'PYMODULE'),
+  ('tkinter.simpledialog',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\simpledialog.py',
+   'PYMODULE'),
+  ('tkinter.ttk',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\ttk.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\typing.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('winevtx',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\winevtx\\__init__.py',
+   'PYMODULE'),
+  ('winevtx.live',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\winevtx\\live.py',
+   'PYMODULE'),
+  ('winevtx.offline',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\winevtx\\offline.py',
+   'PYMODULE'),
+  ('winevtx.utils',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\winevtx\\utils.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('yaml',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\__init__.py',
+   'PYMODULE'),
+  ('yaml.composer',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\composer.py',
+   'PYMODULE'),
+  ('yaml.constructor',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\constructor.py',
+   'PYMODULE'),
+  ('yaml.cyaml',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\cyaml.py',
+   'PYMODULE'),
+  ('yaml.dumper',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\dumper.py',
+   'PYMODULE'),
+  ('yaml.emitter',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\emitter.py',
+   'PYMODULE'),
+  ('yaml.error',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\error.py',
+   'PYMODULE'),
+  ('yaml.events',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\events.py',
+   'PYMODULE'),
+  ('yaml.loader',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\loader.py',
+   'PYMODULE'),
+  ('yaml.nodes',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\nodes.py',
+   'PYMODULE'),
+  ('yaml.parser',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\parser.py',
+   'PYMODULE'),
+  ('yaml.reader',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\reader.py',
+   'PYMODULE'),
+  ('yaml.representer',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\representer.py',
+   'PYMODULE'),
+  ('yaml.resolver',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\resolver.py',
+   'PYMODULE'),
+  ('yaml.scanner',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\scanner.py',
+   'PYMODULE'),
+  ('yaml.serializer',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\serializer.py',
+   'PYMODULE'),
+  ('yaml.tokens',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\.venv\\Lib\\site-packages\\yaml\\tokens.py',
+   'PYMODULE'),
+  ('zen',
+   'C:\\Users\\Mazinet Rayaneh\\Desktop\\ZenPCanalys\\zen\\__init__.py',
+   'PYMODULE'),
+  ('zen.attack_coverage',
+   'C:\\Users\\Mazinet Rayaneh\\Desktop\\ZenPCanalys\\zen\\attack_coverage.py',
+   'PYMODULE'),
+  ('zen.correlation_engine',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\Desktop\\ZenPCanalys\\zen\\correlation_engine.py',
+   'PYMODULE'),
+  ('zen.evtx_reader',
+   'C:\\Users\\Mazinet Rayaneh\\Desktop\\ZenPCanalys\\zen\\evtx_reader.py',
+   'PYMODULE'),
+  ('zen.gui',
+   'C:\\Users\\Mazinet Rayaneh\\Desktop\\ZenPCanalys\\zen\\gui.py',
+   'PYMODULE'),
+  ('zen.html_report',
+   'C:\\Users\\Mazinet Rayaneh\\Desktop\\ZenPCanalys\\zen\\html_report.py',
+   'PYMODULE'),
+  ('zen.live_monitor',
+   'C:\\Users\\Mazinet Rayaneh\\Desktop\\ZenPCanalys\\zen\\live_monitor.py',
+   'PYMODULE'),
+  ('zen.rule_loader',
+   'C:\\Users\\Mazinet Rayaneh\\Desktop\\ZenPCanalys\\zen\\rule_loader.py',
+   'PYMODULE'),
+  ('zen.rule_tester',
+   'C:\\Users\\Mazinet Rayaneh\\Desktop\\ZenPCanalys\\zen\\rule_tester.py',
+   'PYMODULE'),
+  ('zen.scan_engine',
+   'C:\\Users\\Mazinet Rayaneh\\Desktop\\ZenPCanalys\\zen\\scan_engine.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\Mazinet '
+   'Rayaneh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipimport.py',
+   'PYMODULE')])

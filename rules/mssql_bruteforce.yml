@@ -1,0 +1,26 @@
+title: Multiple Failed MSSQL Logons
+id: 7d6e5f4a-3b2c-1d0e-9f8a-7b6c5d4e3f2a
+status: experimental
+description: Detects multiple failed MSSQL logon attempts (Event ID 18456), indicating a possible brute force attack against a SQL Server instance.
+author: ZenshiroDarkuOwO
+date: 2026/11/05
+references:
+    - https://attack.mitre.org/techniques/T1110/
+    - https://learn.microsoft.com/en-us/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error
+tags:
+    - attack.credential_access
+    - attack.t1110
+logsource:
+    product: windows
+    service: application
+    definition: 'Requires MSSQL Server error log forwarding to Windows Application log'
+detection:
+    selection:
+        EventID: 18456
+    filter_legit:
+        TargetUserName|endswith: '$'
+    condition: selection and not filter_legit
+falsepositives:
+    - User mistyping password
+    - Misconfigured application with stale credentials
+level: medium

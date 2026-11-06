@@ -1,0 +1,24 @@
+title: Potential Kerberoasting Activity
+id: e2f3a4b5-c6d7-8e9f-0a1b-2c3d4e5f6a7b
+status: stable
+description: Detects Kerberos service ticket requests (Event ID 4769) using RC4 encryption (0x17), a common indicator of Kerberoasting attacks.
+author: ZenshiroDarkuOwO
+date: 2026/11/05
+references:
+    - https://attack.mitre.org/techniques/T1558/003/
+tags:
+    - attack.credential_access
+    - attack.t1558.003
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 4769
+        TicketEncryptionType: '0x17'
+    filter_machine:
+        ServiceName|endswith: '$'
+    condition: selection and not filter_machine
+falsepositives:
+    - Legacy applications still using RC4
+level: high

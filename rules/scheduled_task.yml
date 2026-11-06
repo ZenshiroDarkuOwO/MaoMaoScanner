@@ -1,0 +1,25 @@
+title: Scheduled Task Created with Suspicious Action
+id: 2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e
+status: stable
+description: Detects creation of a scheduled task (Event ID 4698) with suspicious command or path.
+author: ZenshiroDarkuOwO
+date: 2026/11/05
+tags:
+    - attack.persistence
+    - attack.t1053.005
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 4698
+    suspicious:
+        TaskContent|contains:
+            - 'cmd.exe'
+            - 'powershell'
+            - '\Temp\'
+            - '\AppData\'
+    condition: selection and suspicious
+falsepositives:
+    - Legitimate software installers
+level: high
