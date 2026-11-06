@@ -50,8 +50,8 @@ LEVEL_ICONS = {
 }
 
 LEVEL_LABELS = {
-    "critical": "Critical", "high": "High", "medium": "Medium",
-    "low": "Low", "informational": "Info",
+    "critical": "Kritisch", "high": "Hoch", "medium": "Mittel",
+    "low": "Tief", "informational": "Info",
 }
 
 SEVERITY_ORDER = {
@@ -78,7 +78,7 @@ def get_base_path() -> Path:
 
 
 def _mix(c1: str, c2: str, t: float) -> str:
-    """ترکیب دو رنگ hex؛ t=0 → c1 ، t=1 → c2"""
+    
     a = [int(c1[i:i + 2], 16) for i in (1, 3, 5)]
     b = [int(c2[i:i + 2], 16) for i in (1, 3, 5)]
     return "#%02x%02x%02x" % tuple(int(x * (1 - t) + y * t) for x, y in zip(a, b))
@@ -265,7 +265,7 @@ class ZenApp(ctk.CTk):
                      font=ctk.CTkFont(family=FONT, size=8, weight="bold"),
                      text_color=VIOLET).pack(anchor="w")
 
-        ctk.CTkLabel(side, text="Die Katze lässt das Log nicht aus",
+        ctk.CTkLabel(side, text="Die Katze lässt das Log nicht los",
                      font=ctk.CTkFont(family=FONT, size=11, slant="italic"),
                      text_color=MUTED, anchor="w", justify="left",
                      wraplength=200).pack(fill="x", padx=24, pady=(10, 0))
@@ -330,7 +330,7 @@ class ZenApp(ctk.CTk):
         self.stat_matches = self._stat_card(stats, 1, "🎯", "TREFFER",    "0", CRITICAL)
         self.stat_rules   = self._stat_card(stats, 2, "🧩", "REGELN",     "0", AMBER)
         self.stat_crit    = self._stat_card(stats, 3, "🔥", "KRITISCH",   "0", "#ff7b72")
-        self.stat_cov     = self._stat_card(stats, 4, "🛡", "ATT&CK",     "…", VIOLET)
+        self.stat_cov     = self._stat_card(stats, 4, "🛡", "ATTACKE",     "…", VIOLET)
 
         
         row = ctk.CTkFrame(main, fg_color="transparent")
@@ -413,7 +413,7 @@ class ZenApp(ctk.CTk):
         columns = ("icon", "rule", "level", "event", "time", "details")
         self.tree = ttk.Treeview(table_frame, columns=columns, show="headings",
                                  style="Custom.Treeview", selectmode="browse")
-        headings = {"icon": "", "rule": "REGEL", "level": "SCHWERE",
+        headings = {"icon": "", "rule": "REGEL", "level": "EINSTUFUNG",
                     "event": "EREIGNIS #", "time": "ZEIT", "details": "DETAILS"}
         widths = {"icon": 44, "rule": 270, "level": 100,
                   "event": 100, "time": 190, "details": 420}
@@ -782,7 +782,7 @@ class ZenApp(ctk.CTk):
             text = "✅\nKeine Treffer — alles sauber!"
         else:
             text = ("🐾\nNoch nichts gefunden\n"
-                    "Wähle eine EVTX-Datei oder einen Ordner und starte den Scan (F5)")
+                    "Wähle eine EVTX-Datei oder einen Ordner aus und starte den Scan (F5)")
         self.empty.configure(text=text)
         self.empty.place(relx=0.5, rely=0.5, anchor="center")
         self.empty.lift()
@@ -795,7 +795,7 @@ class ZenApp(ctk.CTk):
     def _set_detail_placeholder(self):
         self.detail.configure(state="normal")
         self.detail.delete("1.0", "end")
-        self.detail.insert("end", "Wähle einen Treffer in der Tabelle, um alle Details zu sehen.", "meta")
+        self.detail.insert("end", "Wähle einen Treffer in der Tabelle aus um alle Details zu sehen.", "meta")
         self.detail.configure(state="disabled")
 
     def _on_select(self, _event=None):
